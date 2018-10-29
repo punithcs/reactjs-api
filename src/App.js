@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PersonList from './Component/PersonList';
+import PersonInput from './Component/PersonInput';
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,6 +22,8 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <PersonInput />
+        <PersonList />
       </div>
     );
   }
